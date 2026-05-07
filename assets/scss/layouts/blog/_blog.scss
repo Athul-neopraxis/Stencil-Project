@@ -8,6 +8,7 @@
 
 .blog {
     margin-bottom: spacing("single");
+    padding: 10px;
 
     @include breakpoint("medium") {
         margin: auto;
@@ -54,6 +55,7 @@
 }
 
 .blog-post {
+padding: 10px;
     font-size: fontSize("smaller");
     text-align: left;
 }
